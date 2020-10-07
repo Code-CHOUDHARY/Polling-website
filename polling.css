@@ -1,0 +1,14 @@
+@charset "utf-8";
+.html{
+	font-size: 24px;
+}
+.body{
+	font-size: 14px;
+}
+.table{
+	border: medium;
+	border-style: double;
+}
+.right{
+	align-items: center;
+}
