@@ -10,5 +10,11 @@
 	border-style: double;
 }
 .right{
-	align-items: center;
+	margin-left: 810px;
+}
+.navbar{
+	font-family: "Arial Black";
+	border: thick;
+	background-color: yellow;
+	border-spacing: 25px;	
 }
