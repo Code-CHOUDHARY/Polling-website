@@ -10,11 +10,17 @@
 	border-style: double;
 }
 .right{
-	margin-left: 810px;
+	margin-left: 1030px;
 }
 .navbar{
 	font-family: "Arial Black";
 	border: thick;
 	background-color: yellow;
 	border-spacing: 25px;	
+	display: flex;
+	font-size: 22px;
+}
+.header{
+	font-size: 28px;
+	text-align: center;
 }
