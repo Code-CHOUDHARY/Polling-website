@@ -5,11 +5,20 @@
 .body{
 	font-size: 14px;
 }
-.table{
+.navbar{
 	border: medium;
 	border-style: double;
 }
 .right{
+
+	align-items: center;
+}
+.header{
+	align-items: center;
+}
+.h1{
+	font-size: 24px;
+	background-color: red;
 	margin-left: 1030px;
 }
 .navbar{
