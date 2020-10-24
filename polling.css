@@ -19,8 +19,34 @@
 	border-spacing: 25px;	
 	display: flex;
 	font-size: 22px;
+	padding-top: 19px;
+	height: 60px;
 }
 .header{
 	font-size: 28px;
 	text-align: center;
+}
+.contain{
+	font-size: 22px;
+	border-width: 2px;
+	margin-left: 100px;
+	flex-direction: column;
+}
+.question{
+	margin-right: 1000px;
+	background-color: antiquewhite;
+}
+.answer{
+	border: 2px;
+}
+.ansitem{
+	border-color: #000000;
+	border-style: solid;
+	margin-right: 800px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	background-color: chartreuse;
+	font-weight: bolder;
+	margin-left: 100px;
 }
