@@ -3,14 +3,27 @@
 	font-size: 24px;
 }
 .body{
-	font-size: 14px;
+	background-color: rebeccapurple;
 }
 .table{
 	border: medium;
 	border-style: double;
 }
 .right{
-	margin-left: 1030px;
+	margin-left: 1250px;
+	margin-bottom: 27px;
+}
+.rightl{
+	border-style: solid;
+	border-color: red;
+	background-color: orange;
+	border-radius: 5px;
+}
+.rights{
+	border-style: solid;
+	border-color: red;
+	background-color: orange;
+	border-radius: 5px;
 }
 .navbar{
 	font-family: "Arial Black";
@@ -21,6 +34,17 @@
 	font-size: 22px;
 	padding-top: 19px;
 	height: 60px;
+	margin-top: -7px;
+	margin-left: -10px;
+	padding-left: 10px;
+	margin-right: -10px;
+}
+.home{
+	border-style: solid;
+	border-color: red;
+	background-color: orange;
+	border-radius: 5px;
+	margin-bottom: 25px;
 }
 .header{
 	font-size: 28px;
@@ -29,24 +53,66 @@
 .contain{
 	font-size: 22px;
 	border-width: 2px;
-	margin-left: 100px;
 	flex-direction: column;
 }
 .question{
-	margin-right: 1000px;
+	margin-left: 550px;
+	margin-right: 550px;
 	background-color: antiquewhite;
 }
 .answer{
 	border: 2px;
 }
 .ansitem{
-	border-color: #000000;
-	border-style: solid;
-	margin-right: 800px;
 	height: 50px;
 	text-align: center;
 	padding-top: 20px;
-	background-color: chartreuse;
 	font-weight: bolder;
-	margin-left: 100px;
+	margin-left: 520px;	
+}
+.ansitem1{
+	background-color: chartreuse;
+	border-style: solid;
+	height: 50px;
+	padding-top: 20px;
+	width: 48%;
+}
+.ansitem2{
+	background-color: chartreuse;
+	border-style: solid;
+	height: 50px;
+	width: 48%;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.ansitem3{
+	background-color: chartreuse;
+	border-style: solid;
+	height: 50px;
+	width: 48%;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.ansitem4{
+	background-color: chartreuse;
+	border-style: solid;
+	height: 50px;
+	width: 48%;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.contact{
+	width: 450px;
+	height: 360px;
+	margin-left: 1050px;
+	margin-top: -50px;
+	border-style: solid;
+	background-color: orange;
+}
+.about{
+	width: 450px;
+	height: 360px;
+	margin-top: -365px;
+	border-style: solid;
+	background-color: orange;
 }
