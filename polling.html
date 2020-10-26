@@ -32,14 +32,15 @@
                 <div class="ansitem">
                     <div class="ansitem1">
                         England
+                        <p id="1"></p>
                     </div>
-                    <div class="ansitem2">
+                    <div id="2" class="ansitem2">
                         India
                     </div> 
-                    <div class="ansitem3">
+                    <div id="3" class="ansitem3">
                         Australia
                     </div> 
-                    <div class="ansitem4">
+                    <div id="4" class="ansitem4">
                         South Africa
                     </div> 
                 </div> 
@@ -49,7 +50,14 @@
             </div>
             <div class="about">
                 About Us Section<hr>
+                Hello, this is a live polling website which will be collecting polls from users and will be telling the output that who had got highest poll. 
+                <p id="about"></p>
             </div>
-        </div>    
+        </div>
     </body>
-</html>
+</html>    
+<script>
+    var cars= ["BMW","Honda","Mercedes","Lamborgini"];
+    document.getElementById("about").innerHTML=cars[1];
+</script>
+

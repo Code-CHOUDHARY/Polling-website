@@ -49,6 +49,7 @@
 .header{
 	font-size: 28px;
 	text-align: center;
+	text-shadow: gray 5px 5px 10px;
 }
 .contain{
 	font-size: 22px;
@@ -77,6 +78,10 @@
 	padding-top: 20px;
 	width: 48%;
 }
+.ansitem1:hover{
+	background-color: yellow;
+	box-shadow: 4px 4px 8px;
+}
 .ansitem2{
 	background-color: chartreuse;
 	border-style: solid;
@@ -84,6 +89,10 @@
 	width: 48%;
 	padding-top: 20px;
 	margin-top: 20px;
+}
+.ansitem2:hover{
+	background-color: yellow;
+	box-shadow: 4px 4px 8px;
 }
 .ansitem3{
 	background-color: chartreuse;
@@ -93,6 +102,10 @@
 	padding-top: 20px;
 	margin-top: 20px;
 }
+.ansitem3:hover{
+	background-color: yellow;
+	box-shadow: 4px 4px 8px;
+}
 .ansitem4{
 	background-color: chartreuse;
 	border-style: solid;
@@ -100,6 +113,10 @@
 	width: 48%;
 	padding-top: 20px;
 	margin-top: 20px;
+}
+.ansitem4:hover{
+	background-color: yellow;
+	box-shadow: 4px 4px 8px;
 }
 .contact{
 	width: 450px;
