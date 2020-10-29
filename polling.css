@@ -1,9 +1,10 @@
 @charset "utf-8";
-.html{
+html{
 	font-size: 24px;
 }
-.body{
-	background-color: rebeccapurple;
+body{
+	background-color: blueviolet;	
+	background-size: cover;
 }
 .table{
 	border: medium;
@@ -132,4 +133,9 @@
 	margin-top: -365px;
 	border-style: solid;
 	background-color: orange;
+}
+.form{
+	border: 3px;
+	background-color: orange;
+	margin-right: 1225px;
 }
