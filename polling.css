@@ -3,7 +3,7 @@ html{
 	font-size: 24px;
 }
 body{
-	background-color: blueviolet;	
+	background-image: url(backimg.svg);	
 	background-size: cover;
 }
 .table{
@@ -17,35 +17,38 @@ body{
 .rightl{
 	border-style: solid;
 	border-color: red;
-	background-color: orange;
+	background-color: transparent;
 	border-radius: 5px;
 }
 .rights{
 	border-style: solid;
 	border-color: red;
-	background-color: orange;
+	background-color: transparent;
 	border-radius: 5px;
 }
 .navbar{
 	font-family: "Arial Black";
 	border: thick;
-	background-color: yellow;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: transparent;
 	border-spacing: 25px;	
 	display: flex;
 	font-size: 22px;
 	padding-top: 19px;
 	height: 60px;
-	margin-top: -7px;
-	margin-left: -10px;
+	margin-left: -7px;
 	padding-left: 10px;
 	margin-right: -10px;
 }
 .home{
 	border-style: solid;
-	border-color: red;
-	background-color: orange;
 	border-radius: 5px;
 	margin-bottom: 25px;
+}
+.home:hover{
+	background-color: darkblue;
+	text-shadow: 4px 4px 10px darkblue;
 }
 .header{
 	font-size: 28px;
@@ -70,7 +73,7 @@ body{
 .question:hover{
 	text-shadow: 2px 2px 5px orange;
 	border: 2px;
-	background-color: rebeccapurple;
+	border-style: solid;
 }
 .answer{
 	border: 2px;
@@ -83,18 +86,18 @@ body{
 	margin-left: 520px;	
 }
 .ansitem1{
-	background-color: chartreuse;
+	background-color: transparent;
 	border-style: solid;
 	height: 50px;
 	padding-top: 20px;
 	width: 48%;
 }
 .ansitem1:hover{
-	background-color: yellow;
+	text-shadow: 4px 4px 10px yellow;
 	box-shadow: 4px 4px 8px;
 }
 .ansitem2{
-	background-color: chartreuse;
+	background-color: transparent;
 	border-style: solid;
 	height: 50px;
 	width: 48%;
@@ -102,11 +105,11 @@ body{
 	margin-top: 20px;
 }
 .ansitem2:hover{
-	background-color: yellow;
+	text-shadow: 4px 4px 10px yellow;
 	box-shadow: 4px 4px 8px;
 }
 .ansitem3{
-	background-color: chartreuse;
+	background-color: transparent;
 	border-style: solid;
 	height: 50px;
 	width: 48%;
@@ -114,11 +117,11 @@ body{
 	margin-top: 20px;
 }
 .ansitem3:hover{
-	background-color: yellow;
+	text-shadow: 4px 4px 10px yellow;
 	box-shadow: 4px 4px 8px;
 }
 .ansitem4{
-	background-color: chartreuse;
+	background-color: transparent;
 	border-style: solid;
 	height: 50px;
 	width: 48%;
@@ -126,7 +129,7 @@ body{
 	margin-top: 20px;
 }
 .ansitem4:hover{
-	background-color: yellow;
+	text-shadow: 4px 4px 10px yellow;
 	box-shadow: 4px 4px 8px;
 }
 .contact{
