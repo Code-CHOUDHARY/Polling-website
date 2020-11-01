@@ -19,12 +19,16 @@
         background-size: cover;
         height: 100%;
         padding: 0; /* reset */
-        padding-bottom: calc(100% * 3 / 4);}
+        padding-bottom: calc(100% * 3 / 4);
+        --hue: var(--hue-neutral);
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(var(--hue), 100%, 20%); }
         ul.topnav {
             list-style-type: none;
-            margin: 0;
+            margin: 0px;
             padding-top: 300px;
-            padding: 10px;
+            padding: 0px;
             overflow: hidden;
             background-color: #4285f4;
             border-radius: 10px;
@@ -64,9 +68,8 @@
             font-family: Gotham Rounded;
           }
           
-          body {
-            --hue: var(--hue-neutral);
-            padding-top: 10rem;
+         /* body {
+            --hue: var(--hue-neutral); 
             margin: 0;
             display: flex;
             width: 100vw;
@@ -74,7 +77,7 @@
             justify-content: center;
             align-items: center;
             background-color: hsl(var(--hue), 100%, 20%);
-          }
+          }*/
           
           body.correct {
             --hue: var(--hue-correct);
@@ -138,3 +141,36 @@
           .hide {
             display: none;
           }
+          /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container1 {
+  width: 50%; /* Full width */
+  padding-left: 0px;
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+  
+div.status {
+  position: absolute;
+  top: 200px;
+  right: 300px;
+  width: 200px;
+  height: 100px;
+  transform: skewY(10deg);
+  transform: rotateX(10deg);
+  transform: rotate(-60deg);
+}
