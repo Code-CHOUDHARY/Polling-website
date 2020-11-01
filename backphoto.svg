@@ -498,7 +498,7 @@ animation-delay: .5s;
    <path class="fil45 str0" d="M597 216c0,1 -1,5 -2,6 -2,5 -2,4 -5,8 -2,2 -2,1 -3,4 0,0 -1,2 -1,2"/>
    <rect class="fil46" x="584" y="239" width="6.41343" height="11.1712"/>
   </g>
-  <g id="bar1" class="fade-in bar1">
+ <!--<g id="bar1" class="fade-in bar1">
       <rect class="fil47" transform="matrix(0.76483 0.446844 -0 0.76483 641.255 200.551) scale(1, -1)" width="38.6735" height="106.956">
         <animate id="op" begin="2s;" attributeName="height" from="0" to="100" dur="1s" fill="freeze"></animate>
       </rect>
@@ -517,7 +517,7 @@ animation-delay: .5s;
   <rect class="fil0" transform="matrix(0.76483 0.461733 -0 0.706606 746.996 262.431) scale(1, -1)" width="38.6735" height="106.956">   
     <animate begin="2s;" attributeName="height" from="0" to="100" dur="1s" fill="freeze"></animate>
   </rect> 
-  </g>
+  </g>-->
   
   
   
