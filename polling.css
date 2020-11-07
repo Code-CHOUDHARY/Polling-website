@@ -206,8 +206,11 @@ body{
 .imgl{
 	width: 350px;
 	height: 250px;
-	margin-left: 50px;
+	margin-left: 5px;
 }
 .imgl:hover{
 	transform: scale(1.5);
+}
+.hr{
+	margin-left: 360px;
 }
