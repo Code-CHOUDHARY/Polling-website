@@ -53,6 +53,10 @@ body{
 	padding-left: 10px;
 	margin-right: -10px;
 }
+.navbar:hover{
+	background-color: turquoise;
+	box-shadow: 4px 4px 10px yellow;
+}
 .home{
 	border-style: solid;
 	border-radius: 5px;
@@ -153,9 +157,8 @@ body{
 	background-color: orange;
 }
 .about{
-	width: 450px;
 	height: 360px;
-	border-style: solid;
+	border-style: dashed;
 	border: 3px;
 	border-radius: 5px;
 }
@@ -199,4 +202,12 @@ body{
 	color: black;
 	font-weight: bolder;
 
+}
+.imgl{
+	width: 350px;
+	height: 250px;
+	margin-left: 50px;
+}
+.imgl:hover{
+	transform: scale(1.5);
 }
